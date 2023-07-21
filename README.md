@@ -1,4 +1,12 @@
-# Ewponential Love
+# Exponential Love
+
+A fundraising tool. Donors see their donation multiplicated by `x`. Sponsors can join at any time. When a new sponsor joins, we increment `x`. 
+
+First deployment: https://goerli.etherscan.io/address/0x13AA296188985d659265dd5645c89385312c97Db#code 
+
+## Motivation
+
+Incentivize donors to donate.
 
 ## Install
 
@@ -12,12 +20,27 @@ npm i
 npx hardhat test
 ```
 
+## Deploy
+
+Create a `.env` file:
+
+```
+cp .env.example .env
+```
+
+Add your own keys in the `.env` file, then: 
+
+```
+npx hardhat run scripts/deploy.js --network goerli
+```
+
 ## Versions
 
 - Node [v18.15.0](https://nodejs.org/uk/blog/release/v18.15.0/)
 - NPM [v9.5.0](https://github.com/npm/cli/releases/tag/v9.5.0)
 - Hardhat [v2.17.0](https://github.com/NomicFoundation/hardhat/releases/tag/hardhat%402.17.0)
 - OpenZeppelin Contracts [v4.9.2](https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v4.9.2)
+- Ethers [v6.6.4](https://docs.ethers.org/v6/)
 
 ## Support
 
