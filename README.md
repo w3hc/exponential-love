@@ -1,5 +1,13 @@
 # Exponential Love
 
+A fundraising tool. Donors see their donation multiplicated by `x`. Sponsors can join at any time. When a new sponsor joins, we increment `x`. 
+
+First deployment: https://goerli.etherscan.io/address/0x13AA296188985d659265dd5645c89385312c97Db#code 
+
+## Motivation
+
+Incentivize donors to donate.
+
 ## Install
 
 ```
